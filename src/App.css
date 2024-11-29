@@ -1,0 +1,98 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Navbar Styles */
+nav {
+  position: fixed; /* Keep the navbar fixed */
+  top: 0;
+  left: 0;
+  width: 200px; /* Adjust width for vertical navbar */
+  height: 100%; /* Full height for a vertical layout */
+  background-color: #333;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column; /* Stack links vertically */
+  z-index: 1000; /* Ensure it stays above main content */
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  margin-bottom: 1rem; /* Space between links */
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem;
+  display: block;
+  border-radius: 5px; /* Add slight rounding for links */
+  transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+  background-color: #555; /* Highlight effect on hover */
+  color: #fff;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Ensure it stays above main content */
+}
+
+/* Main Content */
+main {
+  margin-left: 200px; /* Push content to the right of the navbar */
+  padding: 2rem;
+  min-height: 100vh; /* Ensure the main area spans the full viewport */
+  background-color: #f4f4f9; /* Light background for better readability */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  nav {
+    position: relative; /* Navbar moves inline for small screens */
+    width: 100%; /* Full width */
+    height: auto; /* Adjust height */
+    flex-direction: row; /* Stack horizontally */
+    align-items: center; /* Center align the links */
+    padding: 0.5rem;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: space-around; /* Spread links evenly */
+    flex-wrap: wrap; /* Allow links to wrap if needed */
+    margin: 0;
+    padding: 0;
+  }
+
+  nav li {
+    margin-bottom: 0; /* Remove vertical spacing for horizontal layout */
+  }
+
+  main {
+    margin-left: 0; /* Remove extra margin for small screens */
+    padding-top: 5rem; /* Add spacing for fixed navbar */
+  }
+}

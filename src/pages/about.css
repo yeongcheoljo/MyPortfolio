@@ -1,0 +1,89 @@
+.about {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
+  .about h1 {
+    font-size: 2.5rem;
+    color: #4a90e2;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .skills-section, .tools-section {
+    margin-bottom: 30px;
+  }
+  
+  .skills-section h2, .tools-section h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .skills-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .skill-item {
+    margin-bottom: 15px;
+  }
+  
+  .skill-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+  }
+  
+  .skill-rating {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .star {
+    font-size: 1.2rem;
+  }
+  
+  .filled-star {
+    color: #ffd700; /* Gold for filled stars */
+  }
+  
+  .empty-star {
+    color: #ccc; /* Light gray for empty stars */
+  }
+  
+  .tools-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .tool-item {
+    background: #f4f4f9;
+    padding: 10px 15px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .tool-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15);
+  }

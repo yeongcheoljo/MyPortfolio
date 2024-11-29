@@ -1,0 +1,37 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100px; /* Width of the navbar */
+  height: 100%;
+  background-color: #333; /* Background color */
+  padding: 10px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar ul {
+	display: flex;
+  flex-direction: column; /* Stack items vertically */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar li {
+  margin-bottom: 10px; /* Space between links */
+}
+
+.navbar a {
+  display: block; /* Forces each link to take a new line */
+  text-decoration: none; /* Removes underline */
+  color: #fff; /* Text color */
+  font-size: 16px; /* Font size */
+  padding: 5px 10px; /* Padding around links */
+  border-radius: 4px; /* Rounded corners */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar a:hover {
+  background-color: #555; /* Background color on hover */
+  color: #fff;
+}

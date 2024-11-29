@@ -1,0 +1,36 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .footer-text {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  
+  .footer-icons {
+    position: absolute;
+    right: 100px; /* Moves the icons a bit further to the right */
+    display: flex;
+    gap: 80px; /* Space between the icons */
+  }
+  
+  .footer-icon-link {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-icon-link:hover {
+    color: #4a90e2;
+  }
+  
+  .footer-icon {
+    font-size: 1.5rem;
+  }
