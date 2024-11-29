@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.983645e5.css",
-    "main.js": "/static/js/main.d189778a.js",
-    "static/js/453.acca0757.chunk.js": "/static/js/453.acca0757.chunk.js",
-    "static/media/증명사진.jpg": "/static/media/증명사진.d71e720fc39a54a706f3.jpg",
-    "static/media/마트관리 사이트.png": "/static/media/마트관리 사이트.c0a98cdd4dfb3216c1e8.png",
-    "static/media/중고게임거래 사이트.png": "/static/media/중고게임거래 사이트.56005cae1b2fd4d13e77.png",
-    "index.html": "/index.html",
-    "main.983645e5.css.map": "/static/css/main.983645e5.css.map",
-    "main.d189778a.js.map": "/static/js/main.d189778a.js.map",
-    "453.acca0757.chunk.js.map": "/static/js/453.acca0757.chunk.js.map"
+    "main.css": "/MyPortfolio/static/css/main.983645e5.css",
+    "main.js": "/MyPortfolio/static/js/main.a05d8128.js",
+    "static/js/453.acca0757.chunk.js": "/MyPortfolio/static/js/453.acca0757.chunk.js",
+    "static/media/증명사진.jpg": "/MyPortfolio/static/media/증명사진.d71e720fc39a54a706f3.jpg",
+    "static/media/마트관리 사이트.png": "/MyPortfolio/static/media/마트관리 사이트.c0a98cdd4dfb3216c1e8.png",
+    "static/media/중고게임거래 사이트.png": "/MyPortfolio/static/media/중고게임거래 사이트.56005cae1b2fd4d13e77.png",
+    "index.html": "/MyPortfolio/index.html",
+    "main.983645e5.css.map": "/MyPortfolio/static/css/main.983645e5.css.map",
+    "main.a05d8128.js.map": "/MyPortfolio/static/js/main.a05d8128.js.map",
+    "453.acca0757.chunk.js.map": "/MyPortfolio/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.983645e5.css",
-    "static/js/main.d189778a.js"
+    "static/js/main.a05d8128.js"
   ]
 }
